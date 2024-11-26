@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Alta</title>
+    <link rel="stylesheet" href="Form.css">
+</head>
+<body>
+    <!-- Encabezado con logo y menú -->
+    <header>
+        <img src="../imatges/Logo-Delicias.png" alt="Delicias Kitchen - Vegetarian & Healthy">
+        <nav>
+            <hr>
+            <ul>
+                <li><a href="../lliurament1/Main_page.html">INICIO</a></li>
+                <li><a href="../lliurament2/WiP.html">SOBRE MÍ</a></li>
+                <li><a href="../lliurament2/llistareceptes.html">RECETAS</a></li>
+                <li><a href="../lliurament2/WiP.html">CONTACTO</a></li>
+                <li><a href="../lliurament2/WiP.html">OTRAS COSAS</a></li>
+            </ul>
+            <hr>
+        </nav>
+    </header>
+
+    <!-- Sección del formulario -->
+    <main>
+        <section class="formulario">
+            <h2>Formulario de Alta</h2>
+            <p>Crea una cuenta, añade un comentario o una receta nueva.</p>
+            <form action="https://ejemplo.com/recibir-formulario" method="get">
+                <!-- Campo de texto -->
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <!-- Campo de correo -->
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <!-- Área de texto para comentarios -->
+                <label for="comentario">Comentario o Receta:</label>
+                <textarea id="comentario" name="comentario" rows="4" required></textarea>
+
+                <!-- Menú desplegable para tipo de receta -->
+                <label for="tipo">Tipo de Receta:</label>
+                <select id="tipo" name="tipo">
+                    <option value="vegana">Vegana</option>
+                    <option value="vegetariana">Vegetariana</option>
+                    <option value="sin-gluten">Sin Gluten</option>
+                    <option value="otra">Otra</option>
+                </select>
+
+                <!-- Botón de envío -->
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer con enlaces a redes sociales -->
+    <footer>
+        <ul>
+            <li><a href="#">FACEBOOK</a></li>
+            <li><a href="#">TWITTER</a></li>
+            <li><a href="#">INSTAGRAM</a></li>
+            <li><a href="#">PINTEREST</a></li>
+            <li><a href="#">EMAIL</a></li>
+            <li><a href="#">RSS</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

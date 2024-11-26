@@ -1,0 +1,158 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #7ABA96;
+}
+
+/* Estilos principales */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.suscripcion {
+    width: 60%;
+    text-align: center;
+    background-color: #f0f0f0; /* Color gris claro */
+    padding: 10px;
+    margin: auto;
+    color: #6b6b6b;
+}
+
+.imagen-suscripcion {
+    width: 100%;
+}
+
+.suscripcion button {
+    background-color: #7ABA96;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.suscripcion button a {
+    color: white;
+    text-decoration: none;
+}
+
+.suscripcion h3 {
+    color: #000000;
+}
+
+.sobre-mi {
+    text-align: center;
+    width: 25%;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 175px;
+    color: #6b6b6b;
+}
+.sobre-mi h2 {
+    color: #000000;
+}
+.sobre-mi p {
+    text-align: justify;
+}
+
+.recetas {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-right: 60px;
+    margin-top: 185px;
+}
+
+.recetas article {
+    padding: 10px;
+    text-align: justify;
+}
+
+.recetas img {
+    width: 100%;
+}
+
+.recetas h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: center;
+}
+.recetas a{
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.recetas a:hover {
+    color: #7ABA96;
+}
+
+.fecha {
+    text-align: center;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,138 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    margin-top: 0px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #7ABA96;
+}
+/* Estils per al cos de la pàgina de la recepta */
+main {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #5a3d0e;
+    text-align: center;
+}
+
+.recipe-header h1 {
+    margin: 10px 0;
+    margin-top: 175px;
+}
+
+.recipe-header img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.info ul, .ingredients ul, .instructions ol {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+.info ul li, .ingredients ul li, .instructions ol li {
+    margin-bottom: 10px;
+}
+
+/* Seccions d’informació de la recepta */
+.info, .ingredients, .instructions, .media, .consells {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.info h2, .ingredients h2, .instructions h2, .media h2, .consells h2 {
+    border-bottom: 2px solid #5a3d0e;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+}
+
+/* Galeria d’imatges i vídeo */
+.media img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.media video {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Secció de consells i variacions */
+.consells p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #444;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}

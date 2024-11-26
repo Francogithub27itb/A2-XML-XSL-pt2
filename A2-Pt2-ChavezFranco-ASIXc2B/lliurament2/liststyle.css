@@ -1,0 +1,138 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #7ABA96;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    width: 100%;
+}
+
+.llistareceptes ul li details div button a {
+    text-decoration: none;
+    color: white;
+}
+
+.llistareceptes {
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 175px;
+    width: 90%;
+    margin-right: 5%;
+}
+
+.llistareceptes ul li {
+    list-style: none;
+}
+.llistareceptes ul li details div img {
+    width: 40%;
+    margin-left: 25%;
+}
+
+details {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    padding: 15px;
+    overflow: hidden;
+    display: block;
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none;
+    outline: none;
+    font-size: larger;
+}
+
+details[open] {
+    opacity: 1;
+    max-height: fit-content;
+}
+
+button {
+    background-color: #7ABA96;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.llistareceptes img {
+    width: 100%;
+}
+
+.llistareceptes ul li details div .caracteristicas {
+    margin-top: 10px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}

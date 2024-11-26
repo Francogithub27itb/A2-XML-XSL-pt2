@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="receptes.xsl"?>
+<receptes>
+    <!-- Receta 1 -->
+    <recepta id="1">
+        <nom>Paella Valenciana</nom>
+        <autor>
+            <nom>Juan Pérez</nom>
+            <dni>12345678A</dni>
+        </autor>
+        <ingredients>
+            <ingredient>
+                <nom>Arroz</nom>
+                <quantitat>
+                    <valor>500</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Pollo</nom>
+                <quantitat>
+                    <valor>300</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Verduras</nom>
+                <quantitat>
+                    <valor>200</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>Cortar las verduras.</pas>
+            <pas>Cocinar el arroz con el pollo y las verduras.</pas>
+            <pas>Dejar reposar 10 minutos antes de servir.</pas>
+        </passos>
+    </recepta>
+
+    <!-- Receta 2 -->
+    <recepta id="2">
+        <nom>Tortilla de Patatas</nom>
+        <autor>
+            <nom>María López</nom>
+            <dni>87654321B</dni>
+        </autor>
+        <ingredients>
+            <ingredient>
+                <nom>Patatas</nom>
+                <quantitat>
+                    <valor>500</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Huevos</nom>
+                <quantitat>
+                    <valor>4</valor>
+                    <mesura>unidades</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Sal</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>pizca</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>Pelar y cortar las patatas.</pas>
+            <pas>Freír las patatas hasta que estén doradas.</pas>
+            <pas>Batir los huevos y mezclarlos con las patatas.</pas>
+            <pas>Cocinar la mezcla en una sartén hasta que esté lista.</pas>
+        </passos>
+    </recepta>
+
+    <!-- Receta 3 -->
+    <recepta id="3">
+        <nom>Gazpacho Andaluz</nom>
+        <autor>
+            <nom>Carlos García</nom>
+            <dni>56789012C</dni>
+        </autor>
+        <ingredients>
+            <ingredient>
+                <nom>Tomates</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>kilogramo</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Pimiento</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>unidad</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Pan</nom>
+                <quantitat>
+                    <valor>100</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Aceite de oliva</nom>
+                <quantitat>
+                    <valor>50</valor>
+                    <mesura>mililitros</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>Pelar los tomates.</pas>
+            <pas>Triturar todos los ingredientes en una licuadora.</pas>
+            <pas>Servir frío.</pas>
+        </passos>
+    </recepta>
+    <!-- Receta 4 --> 
+    <recepta id="4">
+        <nom>Ensalada César</nom>
+        <autor>
+            <nom>Laura Martínez</nom>
+            <dni>11223344D</dni>
+        </autor>
+        <ingredients>
+            <ingredient>
+                <nom>Lechuga</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>unidad</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Pechuga de pollo</nom>
+                <quantitat>
+                    <valor>200</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Crutones</nom>
+                <quantitat>
+                    <valor>50</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Salsa César</nom>
+                <quantitat>
+                    <valor>30</valor>
+                    <mesura>mililitros</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>Trocear la lechuga y el pollo cocido.</pas>
+            <pas>Mezclar con los crutones y la salsa César.</pas>
+            <pas>Servir en un plato hondo.</pas>
+        </passos>
+    </recepta>
+
+    <!-- Receta 5 --> 
+    <recepta id="5">
+        <nom>Crema de Calabaza</nom>
+        <autor>
+            <nom>Ana Fernández</nom>
+            <dni>33445566E</dni>
+        </autor>
+        <ingredients>
+            <ingredient>
+                <nom>Calabaza</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>kilogramo</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Cebolla</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>unidad</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Nata</nom>
+                <quantitat>
+                    <valor>200</valor>
+                    <mesura>mililitros</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>Pelar y trocear la calabaza y la cebolla.</pas>
+            <pas>Cocer en agua con sal hasta que estén tiernas.</pas>
+            <pas>Triturar y añadir la nata para suavizar.</pas>
+        </passos>
+    </recepta>
+    <recepta id="6">
+        <nom>Pizza Margarita</nom>
+        <autor>
+            <nom>Luigi Bianchi</nom>
+            <dni>77889900F</dni>
+        </autor>
+        <ingredients>
+            <ingredient>
+                <nom>Harina</nom>
+                <quantitat>
+                    <valor>500</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Tomate</nom>
+                <quantitat>
+                    <valor>200</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Queso mozzarella</nom>
+                <quantitat>
+                    <valor>300</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>Preparar la masa con harina, agua y levadura.</pas>
+            <pas>Extender la masa y añadir el tomate y queso.</pas>
+            <pas>Hornear a 200°C durante 15 minutos.</pas>
+        </passos>
+    </recepta>
+
+    <!-- Receta 7 -->
+    <recepta id="7">
+        <nom>Lasaña de Carne</nom>
+        <autor>
+            <nom>Mario Rossi</nom>
+            <dni>99887766G</dni>
+        </autor>
+        <ingredients>
+            <ingredient>
+                <nom>Pasta para lasaña</nom>
+                <quantitat>
+                    <valor>12</valor>
+                    <mesura>láminas</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Carne picada</nom>
+                <quantitat>
+                    <valor>500</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Bechamel</nom>
+                <quantitat>
+                    <valor>300</valor>
+                    <mesura>mililitros</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>Cocinar la carne picada con tomate y especias.</pas>
+            <pas>Montar capas de pasta, carne y bechamel.</pas>
+            <pas>Hornear a 180°C durante 30 minutos.</pas>
+        </passos>
+    </recepta>
+
+    <!-- Receta 8 -->
+    <recepta id="8">
+        <nom>Sopa de Pollo</nom>
+        <autor>
+            <nom>Clara Gómez</nom>
+            <dni>22334455H</dni>
+        </autor>
+        <ingredients>
+            <ingredient>
+                <nom>Pollo</nom>
+                <quantitat>
+                    <valor>500</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Zanahoria</nom>
+                <quantitat>
+                    <valor>2</valor>
+                    <mesura>unidades</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Puerro</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>unidad</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>Hervir el pollo con las verduras.</pas>
+            <pas>Colar el caldo y desmenuzar el pollo.</pas>
+            <pas>Servir caliente.</pas>
+        </passos>
+    </recepta>
+
+    <!-- Receta 9 -->
+    <recepta id="9">
+        <nom>Crepes Dulces</nom>
+        <autor>
+            <nom>Sofía Ruiz</nom>
+            <dni>55667788I</dni>
+        </autor>
+        <ingredients>
+            <ingredient>
+                <nom>Harina</nom>
+                <quantitat>
+                    <valor>250</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Huevos</nom>
+                <quantitat>
+                    <valor>2</valor>
+                    <mesura>unidades</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Leche</nom>
+                <quantitat>
+                    <valor>500</valor>
+                    <mesura>mililitros</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>Mezclar los ingredientes hasta obtener una masa líquida.</pas>
+            <pas>Verter en una sartén caliente en pequeñas porciones.</pas>
+            <pas>Cocinar por ambos lados y añadir relleno dulce.</pas>
+        </passos>
+    </recepta>
+
+    <!-- Receta 10 -->
+    <recepta id="10">
+        <nom>Hummus</nom>
+        <autor>
+            <nom>Ahmed Al-Masri</nom>
+            <dni>44556677J</dni>
+        </autor>
+        <ingredients>
+            <ingredient>
+                <nom>Garbanzos</nom>
+                <quantitat>
+                    <valor>250</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Tahini</nom>
+                <quantitat>
+                    <valor>50</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Ajo</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>diente</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>Triturar todos los ingredientes hasta obtener una pasta suave.</pas>
+            <pas>Servir con un poco de aceite de oliva y pimentón.</pas>
+        </passos>
+    </recepta>
+
+    <!-- Receta 11 -->
+    <recepta id="11">
+        <nom>Brownie de Chocolate</nom>
+        <autor>
+            <nom>Lucía Morales</nom>
+            <dni>77889922K</dni>
+        </autor>
+        <ingredients>
+            <ingredient>
+                <nom>Chocolate negro</nom>
+                <quantitat>
+                    <valor>200</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Mantequilla</nom>
+                <quantitat>
+                    <valor>100</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Azúcar</nom>
+                <quantitat>
+                    <valor>150</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>Fundir el chocolate con la mantequilla.</pas>
+            <pas>Mezclar con el azúcar y los huevos.</pas>
+            <pas>Hornear a 180°C durante 20 minutos.</pas>
+        </passos>
+    </recepta>
+
+    <!-- Receta 12 -->
+    <recepta id="12">
+        <nom>Pasta Carbonara</nom>
+        <autor>
+            <nom>Roberto Silva</nom>
+            <dni>33445566L</dni>
+        </autor>
+        <ingredients>
+            <ingredient>
+                <nom>Pasta</nom>
+                <quantitat>
+                    <valor>500</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Panceta</nom>
+                <quantitat>
+                    <valor>200</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Huevos</nom>
+                <quantitat>
+                    <valor>3</valor>
+                    <mesura>unidades</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>Cocinar la pasta al dente.</pas>
+            <pas>Freír la panceta hasta dorar.</pas>
+            <pas>Mezclar los huevos con la pasta y la panceta.</pas>
+        </passos>
+    </recepta>
+    <!-- Receta 13 -->
+    <recepta id="13">
+        <nom>Tacos de Pollo</nom>
+        <autor>
+            <nom>Juan Pérez</nom>
+            <dni>99887755M</dni>
+        </autor>
+        <ingredients>
+            <ingredient>
+                <nom>Tortillas de maíz</nom>
+                <quantitat>
+                    <valor>10</valor>
+                    <mesura>unidades</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Pechuga de pollo</nom>
+                <quantitat>
+                    <valor>400</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Lechuga</nom>
+                <quantitat>
+                    <valor>100</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>Cortar el pollo en tiras y cocinarlo a la plancha.</pas>
+            <pas>Preparar las tortillas con pollo, lechuga y salsa.</pas>
+            <pas>Servir calientes.</pas>
+        </passos>
+    </recepta>
+
+    <!-- Receta 14 -->
+    <recepta id="14">
+        <nom>Gazpacho Andaluz</nom>
+        <autor>
+            <nom>María Fernández</nom>
+            <dni>11223344N</dni>
+        </autor>
+        <ingredients>
+            <ingredient>
+                <nom>Tomate</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>kilogramo</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Pepino</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>unidad</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Pan</nom>
+                <quantitat>
+                    <valor>100</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>Triturar todos los ingredientes con agua fría.</pas>
+            <pas>Pasar la mezcla por un colador fino.</pas>
+            <pas>Servir frío con trozos de pan y aceite de oliva.</pas>
+        </passos>
+    </recepta>
+
+    <!-- Receta 15 -->
+    <recepta id="15">
+        <nom>Ensalada César</nom>
+        <autor>
+            <nom>Ana Martínez</nom>
+            <dni>33445588O</dni>
+        </autor>
+        <ingredients>
+            <ingredient>
+                <nom>Lechuga romana</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>unidad</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Pechuga de pollo</nom>
+                <quantitat>
+                    <valor>200</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>Queso parmesano</nom>
+                <quantitat>
+                    <valor>50</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>Asar el pollo y cortarlo en tiras.</pas>
+            <pas>Mezclar la lechuga con el pollo y el queso.</pas>
+            <pas>Añadir la salsa César y servir.</pas>
+        </passos>
+    </recepta>
+</receptes>

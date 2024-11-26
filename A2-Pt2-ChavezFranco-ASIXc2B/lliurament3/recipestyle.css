@@ -1,0 +1,138 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    margin-top: 0px;
+}
+
+header img {
+    margin: 20px 0;
+    max-height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #7ABA96;
+}
+
+hr {
+    margin: 10px auto;
+    width: 100%;
+}
+
+main {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    color: #5a3d0e;
+    text-align: center;
+    margin-top: 170px; /* Ajuste para compensar el header fijo */
+}
+
+/* Secciones */
+
+.recipe-header h1 {
+    margin: 10px 0;
+    margin-top: 175px;
+}
+
+.recipe-header img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.recipe-header p {
+    text-align: center;
+    font-size: 1.1em;
+    color: #666;
+}
+
+
+.section {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section strong {
+    font-size: 1.2em;
+    color: #5a3d0e;
+}
+
+.section ul, .section ol {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+.section ul li, .section ol li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
